@@ -51,7 +51,7 @@ def get_average_age_for_season(data, season)
   ages 
       end
       # binding.pry
-
+ages
 end
 
 #////////////////////////////////////////////////NOTES
