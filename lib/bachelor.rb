@@ -47,7 +47,7 @@ end
 
 def get_average_age_for_season(data, season)
   # code here
-  data[season].collect do |person| person["age"][0]
+  data[season].collect do |person| person["age"].sum
   
   
       end
