@@ -51,7 +51,7 @@ def get_average_age_for_season(data, season)
   data[season].collect do |person| 
     ages << person["age"].to_i
   avg = []
-  ages.each{|x| i = 0 x+=i}
+  ages.each{|x| x+=avg}
   
       end
       # binding.pry
