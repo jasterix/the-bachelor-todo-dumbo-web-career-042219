@@ -52,7 +52,7 @@ def get_average_age_for_season(data, season)
     ages << person["age"].to_i
     puts ages
   end
-  sum = ages.sum
+  avg = ages.sum / ages.length
   
 end
 
