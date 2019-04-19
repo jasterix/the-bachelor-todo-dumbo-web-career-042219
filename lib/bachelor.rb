@@ -50,12 +50,10 @@ def get_average_age_for_season(data, season)
   ages = []
   data[season].collect do |person| 
     ages << person["age"].to_i
+    puts ages
   end
   sum = ages.sum
   
-      
-      # binding.pry
-# ages
 end
 
 #////////////////////////////////////////////////NOTES
