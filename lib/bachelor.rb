@@ -54,7 +54,7 @@ def get_average_age_for_season(data, season)
   end
   # return ages
    avg = ages.sum / ages.length
-  
+  avg.round
 end
 
 #////////////////////////////////////////////////NOTES
